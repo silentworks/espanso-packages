@@ -1,0 +1,45 @@
+matches:
+  - trigger: "sb:auth_error_codes"
+    replace: "https://supabase.com/docs/guides/auth/debugging/error-codes"
+  - trigger: "sb:password_reset"
+    replace: "https://supabase.com/docs/guides/auth/passwords?queryGroups=language&language=js&queryGroups=flow&flow=pkce&queryGroups=framework&framework=nextjs#resetting-a-password"
+  - trigger: "sb:custom_smtp"
+    replace: "https://supabase.com/docs/guides/auth/auth-smtp"
+  - trigger: "sb:custom_schemas"
+    replace: "https://supabase.com/docs/guides/api/using-custom-schemas"
+  - trigger: "sb:migrate"
+    replace: "https://supabase.com/docs/guides/platform/migrating-within-supabase"
+  - trigger: "sb:edge_deploy"
+    replace: "https://supabase.com/docs/guides/functions/deploy"
+  - trigger: "sb:user_profile"
+    replace: "https://supabase.com/docs/guides/auth/managing-user-data?queryGroups=language&language=js"
+  - trigger: "sb:discuss"
+    replace: "https://github.com/supabase/supabase/discussions"
+  - trigger: "sb:github"
+    replace: "https://github.com/supabase/supabase"
+  - trigger: "sb:support"
+    replace: "https://supabase.com/dashboard/support/new"
+  - trigger: "sb:official_support"
+    replace: "https://supabase.com/support-policy#official-support-channels"
+  - trigger: "sb:db_error_saving_new_user"
+    replace: "https://github.com/orgs/supabase/discussions/13043"
+  - trigger: "sb:not_support"
+    replace: >
+      This is a user helping user platform and not an official Supabase support channel. You should contact Supabase support instead https://supabase.com/dashboard/support/new
+  - trigger: "sb:not_monitored"
+    replace: >
+      This is a user helping user platform and not regularly monitored by the Supabase staff.
+  - trigger: "sb:mods"
+    replace: >
+      Is someone spamming the server? Is there a suspicious activity you'd like to report? Is someone breaking the server rules? If not please don't @ the mods or team members on this server. Your account will go into timeout if you @ the mods and it's not any of the issues mentioned above.
+  - trigger: "sb:bug_report"
+    replace: >
+      When giving bug report please provide all details to replicate the issue, it's also better to create a minimal reproducible repository.
+  - trigger: "sb:double_post"
+    replace: >
+      Please don't double post here, that is considered spamming. Deleting your post here.
+  - trigger: "sb:help_questions"
+    replace: >
+      All, please ask help related questions in #help-and-questions  and certainly don't double post here as then this just becomes an even messier channel.  Also you should not expect an answer in a few hours in general, this is a users helping users forum.  Please don't double post or bump.  If someone knows an answer they will help you.  Folks on here will in general focus on answering in #help-and-questions and not in #off-topic.
+  
+  
