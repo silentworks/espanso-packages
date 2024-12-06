@@ -1,0 +1,1 @@
+This is a package containing web development abbreviations

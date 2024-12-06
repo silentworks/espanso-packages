@@ -1,0 +1,11 @@
+matches:
+  - trigger: ":abb-ssr"
+    replace: "server-side rendering (SSR)"
+  - trigger: ":abb-spa"
+    replace: "single page application (SPA)"
+  - trigger: ":abb-rls"
+    replace: "row level security (RLS)"
+  - trigger: ":abb-erd"
+    replace: "Entity Relationship Diagram (ERD)"
+  - trigger: ":abb-pkce"
+    replace: "Proof Key for Code Exchange (PKCE)"
