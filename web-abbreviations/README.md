@@ -8,3 +8,9 @@ SSR expansion
 ```
 exp:ssr
 ```
+
+## Installation
+
+```sh
+espanso install web-abbreviations --git https://github.com/silentworks/espanso-packages --external
+```

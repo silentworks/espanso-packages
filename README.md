@@ -2,11 +2,18 @@
 
 This is a repository containing all the espanso packages I use.
 
-## Usage
+## Installation
 
+- Web Abbreviations
 
 ```sh
 espanso install web-abbreviations --git https://github.com/silentworks/espanso-packages --external
+```
+
+- Supabase support snippets
+
+```sh
+espanso install supabase-support --git https://github.com/silentworks/espanso-packages --external
 ```
 
 For more information about customizing the repository and using it, please

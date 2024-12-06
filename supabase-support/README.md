@@ -9,3 +9,9 @@ Support support link
 ```
 sb:support
 ```
+
+## Installation
+
+```sh
+espanso install supabase-support --git https://github.com/silentworks/espanso-packages --external
+```
