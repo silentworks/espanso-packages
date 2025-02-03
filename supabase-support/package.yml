@@ -20,7 +20,7 @@ matches:
   - trigger: "sb:support"
     replace: "https://supabase.com/dashboard/support/new"
   - trigger: "sb:official_support"
-    replace: "https://supabase.com/support-policy#official-support-channels"
+    replace: "https://supabase.com/support-policy%23official-support-channels"
   - trigger: "sb:db_error_saving_new_user"
     replace: >
       You should look at the Auth and Postgres logs in the dashboard. This is almost always you have a trigger function on `auth.users` that is not working. https://github.com/orgs/supabase/discussions/13043
@@ -42,3 +42,7 @@ matches:
   - trigger: "sb:help_questions"
     replace: >
       All, please ask help related questions in #help-and-questions  and certainly don't double post here as then this just becomes an even messier channel.  Also you should not expect an answer in a few hours in general, this is a users helping users forum.  Please don't double post or bump.  If someone knows an answer they will help you.  Folks on here will in general focus on answering in #help-and-questions and not in #off-topic.
+  - trigger: "sb:api_keys"
+    replace: "https://supabase.com/docs/guides/api/api-keys"
+  - trigger: "sb:secure_api"
+    replace: "https://supabase.com/docs/guides/api/securing-your-api"
