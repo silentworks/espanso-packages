@@ -46,3 +46,12 @@ matches:
     replace: "https://supabase.com/docs/guides/api/api-keys"
   - trigger: "sb:secure_api"
     replace: "https://supabase.com/docs/guides/api/securing-your-api"
+  - trigger: "sb:dashboard_stuck"
+    replace: >
+      Can you go to https://time.is to check your local time?
+      The browser refreshes the auth token based on your machine's time. If it's off by a few minutes, the Dashboard may end up stuck with an expired token, leaving it in a loading state
+  - trigger: "sb:delete_post"
+    replace: "Please don't delete your posts after someone has started to try and help you with the issue. Also if you've figured out the problem it's best to post it in the post so other who may run into the same issue can get help from it."
+  - trigger: "sb:example_repo"
+    replace: "https://github.com/silentworks/supabase-by-example"
+
