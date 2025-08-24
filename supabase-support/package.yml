@@ -20,7 +20,7 @@ matches:
   - trigger: "sb:support"
     replace: "https://supabase.com/dashboard/support/new"
   - trigger: "sb:official_support"
-    replace: "https://supabase.com/support-policy%23official-support-channels"
+    replace: "https://supabase.com/support-policy#official-support-channels"
   - trigger: "sb:db_error_saving_new_user"
     replace: >
       You should look at the Auth and Postgres logs in the dashboard. This is almost always you have a trigger function on `auth.users` that is not working. https://github.com/orgs/supabase/discussions/13043
@@ -55,4 +55,6 @@ matches:
     replace: "Please don't delete your posts after someone has started to try and help you with the issue. Also if you've figured out the problem it's best to post it in the post so other who may run into the same issue can get help from it."
   - trigger: "sb:example_repo"
     replace: "https://github.com/silentworks/supabase-by-example"
+  - trigger: "sb:google_login_screen"
+    replace: "https://supabase.com/docs/guides/auth/social-login/auth-google#google-consent-screen"
 
