@@ -15,3 +15,10 @@ matches:
     replace: "Multi-factor authentication (MFA)"
   - trigger: "exp:otp"
     replace: "One-time password (OTP)"
+  - trigger: "exp:wal"
+    replace: "Write Ahead Log (WAL)"
+  - trigger: "exp:llm"
+    replace: "large language model (llm)"
+  - trigger: "exp:slm"
+    replace: "small language model (slm)"
+
