@@ -57,4 +57,7 @@ matches:
     replace: "https://github.com/silentworks/supabase-by-example"
   - trigger: "sb:google_login_screen"
     replace: "https://supabase.com/docs/guides/auth/social-login/auth-google#google-consent-screen"
+  - trigger: "sb:soliciting"
+    replace: >
+      Please don't give access to your project to anyone on this server unless you know them personally. No SupaUser, Mods or Supabase Team member will ever ask you for access to your project on here.
 
