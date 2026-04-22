@@ -60,4 +60,13 @@ matches:
   - trigger: "sb:soliciting"
     replace: >
       Please don't give access to your project to anyone on this server unless you know them personally. No SupaUser, Mods or Supabase Team member will ever ask you for access to your project on here.
+  - trigger: "sb:exhausted"
+    replace: >
+      Check you observability database charts.  Usage charts.
+      Check your Gateway API log of increased requests.
+      Check the query peformance report for very long running queries.
+
+      Disk I/O burst seems to be the usual issue.
+  - trigger: "sb:secure_edge_functions"
+    replace: "https://supabase.com/docs/guides/functions/auth"
 
