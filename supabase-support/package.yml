@@ -61,12 +61,7 @@ matches:
     replace: >
       Please don't give access to your project to anyone on this server unless you know them personally. No SupaUser, Mods or Supabase Team member will ever ask you for access to your project on here.
   - trigger: "sb:exhausted"
-    replace: >
-      Check you observability database charts.  Usage charts.\n
-      Check your Gateway API log of increased requests.\n
-      Check the query peformance report for very long running queries.\n\n
-
-      Disk I/O burst seems to be the usual issue.
+    replace: "Check you observability database charts, usage charts.\nCheck your Gateway API log of increased requests.\nCheck the query performance report for very long running queries.\n\nDisk I/O burst seems to be the usual issue."
   - trigger: "sb:secure_edge_functions"
     replace: "https://supabase.com/docs/guides/functions/auth"
 
